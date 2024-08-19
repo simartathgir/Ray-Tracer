@@ -45,12 +45,12 @@ Ray tracing is a rendering technique that mimics the way light interacts with ob
 
 ## Usage
 
-1. Click the Add Object button to place a new sphere at the origin.
+1. Click the 'Add Object' button to place a new sphere at the origin.
 2. Modify object parameters such as position, size, color, roughness, emissive color, and emissive strength.
 3. Customize and configure the scene to your liking (ensure you add emissive sources, or the scene will be completely dark).
 4. Use the WASD keys and arrow keys to adjust the camera's position and rotation in viewport mode.
 5. Adjust the sample count for the final render (higher sample counts improve quality but take longer to render).
-6. Click the Render button to generate the ray-traced output (open the console first to track rendering progress).
+6. Click the 'Render' button to generate the ray-traced output (open the console first to track rendering progress).
 
 ## Examples
 1. ![Ray tracer screenshot 1](images/a.png)
