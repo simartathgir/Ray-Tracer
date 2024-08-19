@@ -1,6 +1,6 @@
 # Ray Tracer
 
-This is a simple ray tracer built from scratch in JavaScript, using only the Canvas Drawing API.
+This is a basic ray tracer created from the ground up in JavaScript, using only the Canvas Drawing API.
 
 ## Table of Contents
 
@@ -12,25 +12,25 @@ This is a simple ray tracer built from scratch in JavaScript, using only the Can
 
 ## Introduction
 
-Ray tracing is a rendering technique that simulates the way light interacts with objects to produce realistic images. This project is a simple implementation of a ray tracer written in JavaScript for my CS559 final project. It utilizes the HTML5 Canvas API to render scenes directly in the browser.
+Ray tracing is a rendering technique that mimics the way light interacts with objects to create realistic images. This project is a straightforward implementation of a ray tracer, written in JavaScript. It leverages the HTML5 Canvas API to render scenes directly in the browser.
 
 ## Features
 
-- Basic ray tracing algorithm
-- Pseudo realistic light reflection simulation
-- Supports spheres of different sizes
-- Shading accounts for emmissive, color, and roughness values
-- Configurable scene setup
-- Lightweight view port mode for real time configuration
+- Fundamental ray tracing algorithm
+- Simulates light reflection with a pseudo-realistic approach
+- Supports spheres of varying sizes
+- Shading incorporates emissive, color, and roughness properties
+- Customizable scene setup
+- Lightweight viewport mode for real-time adjustments
 - FPS counter
-- Adjustable sampling for rendered outputs
+- Adjustable sampling for rendered images
 
 ## Setup
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/RSYashwanth/Ray-Tracer.git
+   git clone https://github.com/simartathgir/Ray-Tracer.git
    cd Ray-Tracer
    ```
 2. Build a docker image:
@@ -41,16 +41,16 @@ Ray tracing is a rendering technique that simulates the way light interacts with
    ```sh
    docker run -p 80:80 <ImageName>
    ```
-4. Open localhost on any browser of choice
+4. Open localhost  in your browser of choice.
 
 ## Usage
 
-1. Click the `Add Object` button to place a new sphere at origin
-2. Adjust object parameters such as position, size, color, roughness, emmissive color, and emmissive strength
-3. Customize and configure scene to preference (don't forget to add emmissive sources else the scene will appear pitch black)
-4. Use wasd keys and arrow keys to position and rotate the camera appropriately in view port mode
-5. Adjust samples count for the final output (higher sample counts lead to a better output but takes longer to render)
-6. Click the `Render` button and view the ray traced output (open console first for rendering progess)
+1. Click the Add Object button to place a new sphere at the origin.
+2. Modify object parameters such as position, size, color, roughness, emissive color, and emissive strength.
+3. Customize and configure the scene to your liking (ensure you add emissive sources, or the scene will be completely dark).
+4. Use the WASD keys and arrow keys to adjust the camera's position and rotation in viewport mode.
+5. Adjust the sample count for the final render (higher sample counts improve quality but take longer to render).
+6. Click the Render button to generate the ray-traced output (open the console first to track rendering progress).
 
 ## Examples
 1. ![Ray tracer screenshot 1](images/a.png)
